@@ -17,7 +17,14 @@ Table of Contents
 -----------------
 
 **AWS**
--	[Step 1](#getting started)
+
+
+first of all what I want is to leverage the GPU's provided by AWS so I have to figure out how to launch a GPU instance
+1) Set hook yourself up with aws EC2 before anything else. https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/get-set-up-for-amazon-ec2.html
+   .ppk or .pem for the key pair. since using WSL and Ubuntu for the most part in this project .pem seems more appropriate.https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html
+   Then create a security group thats acts as a firewall controlling what goes in and out of the instance.  
+   for inbound SSH, HTTP and HTTPS
+3) Then youre ready to connect to your instance. 
 
 **Networking**
 
