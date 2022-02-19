@@ -16,6 +16,8 @@ Specifically on AWS and some networking for another project
 Table of Contents
 -----------------
 
-**AWS in General**
+**AWS**
 -	[Step 1](#getting started)
+
+**Networking**
 
