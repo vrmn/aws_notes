@@ -27,6 +27,8 @@ first of all what I want is to leverage the GPU's provided by AWS so I have to f
 3) Then youre ready to connect to your instance. 
 
 **Docker**
+Quickstart https://docs.docker.com/docker-hub/
+
 1) clone a repo that has an image and a container to run it
 docker run --name repo alpine/git clone https://github.com/docker/getting-started.git
 
