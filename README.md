@@ -26,5 +26,16 @@ first of all what I want is to leverage the GPU's provided by AWS so I have to f
    for inbound SSH, HTTP and HTTPS
 3) Then youre ready to connect to your instance. 
 
+**Docker**
+1) clone a repo that has an image and a container to run it
+docker run --name repo alpine/git clone https://github.com/docker/getting-started.git
+
+2) Build the image 
+docker build -t docker101tutorial .
+
+3) Run the container
+4) docker run -d -p 80:80 --name docker-tutorial docker101tutorial
+
+
 **Networking**
 
