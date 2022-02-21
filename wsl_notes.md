@@ -16,7 +16,26 @@ check what linux distros can be installed
 wsl --list --online
   
 to unistall unwanted linux distribution
-wsl --unregiester <Distribution name >
+wsl --unregiester <Distribution name>
+  
+  
+ ----------------------
+  
+ if you are in a powershell and and want to run as amdin type 
+  start-process powershell -verb runas
   
   
   
+  wsl -d Ubuntu-20.04 -u root
+  to set new passworld
+  
+  
+  ----
+  ssh-keygen
+   cat ~/.ssh/id_rsa.pub
+
+  git clone git@repo
+  
+  
+-----
+  sudo rm -rf /var/lib/containerd
