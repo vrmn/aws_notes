@@ -1,0 +1,22 @@
+from https://docs.microsoft.com/en-us/windows/wsl/basic-commands
+
+make sure that your wsl status is configured with wsl 2 and ubuntu 20.04 by typing
+wsl --status
+
+if wsl is not wsl 2 then 
+wsl --set-default-version <version number>
+  
+if linux distribution no ubuntu 20.04
+wsl --set-default <Distriubiton name >
+
+check if you have the linux distro installed 
+wsl --list --verbose
+
+check what linux distros can be installed 
+wsl --list --online
+  
+to unistall unwanted linux distribution
+wsl --unregiester <Distribution name >
+  
+  
+  
