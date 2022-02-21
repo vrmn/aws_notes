@@ -25,20 +25,22 @@ wsl --unregiester <Distribution name>
   start-process powershell -verb runas
   
   
-  
+  if you forgot your wsl password for ubuntu
   wsl -d Ubuntu-20.04 -u root
   to set new passworld
   
   
   ----
+  when you have a fresh new terminal and cant seem to clone anything
   ssh-keygen
-   cat ~/.ssh/id_rsa.pub
+   cat ~/.ssh/id_rsa.pub  <-copy the contents that come out and past them inside the ssh key place on the github site
 
+                                 
   git clone git@repo
   
   
 -----
-after installing docker so that you can run docker from the temrinal
+after installing wsl, docker desktop so that you can run docker from the temrinal
    sudo groupadd docker
    sudo usermod -aG docker $USER
   
@@ -48,4 +50,7 @@ after installing docker so that you can run docker from the temrinal
   test and see
   docker run hello-world
   
-  
+  ----
+   https://hub.docker.com/_/ros
+  http://wiki.ros.org/docker/Tutorials/Docker
+                                 
