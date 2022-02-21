@@ -38,4 +38,14 @@ wsl --unregiester <Distribution name>
   
   
 -----
-  sudo rm -rf /var/lib/containerd
+after installing docker so that you can run docker from the temrinal
+   sudo groupadd docker
+   sudo usermod -aG docker $USER
+  
+  restart terminal or vs if using terminal there
+  newgrp docker 
+  
+  test and see
+  docker run hello-world
+  
+  
