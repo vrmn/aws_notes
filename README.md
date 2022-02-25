@@ -38,6 +38,15 @@ docker build -t docker101tutorial .
 3) Run the container
 4) docker run -d -p 80:80 --name docker-tutorial docker101tutorial
 
+---------------
+when you have too much of the same image 
+docker rmi -f $(docker images --filter "dangling=true" -q --no-trunc)
+
+remove all exited coontainers https://docs.docker.com/engine/reference/commandline/rm/
+docker rm $(docker ps --filter status=exited -q)
+
+
+
 
 **Networking**
 
